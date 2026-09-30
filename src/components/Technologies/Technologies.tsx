@@ -12,8 +12,7 @@ const Technologies = ({ technologiesPromise }: ITechnologiesTypesProps) => {
 
     return (
         <div className="container mx-auto px-4 max-w-7xl">
-            <div className="mt-12">
-                <div className="w-12 h-1 bg-[#EC4899] rounded-full mb-6"></div>
+            <div className="mt-12"> <div className="w-12 h-1 rounded-full mb-6"></div>
 
                 <h2 className="font-extrabold text-4xl text-[#0F172A]">
                     Explore the{" "}
@@ -27,13 +26,13 @@ const Technologies = ({ technologiesPromise }: ITechnologiesTypesProps) => {
                 </p>
 
                 <div className="grid grid-cols-12 gap-8 items-start">
-                    <div className="col-span-9 grid grid-cols-3 gap-4">
+                    <div className="col-span-8 grid grid-cols-1 md:grid-cols-3 gap-5">
                         {allTechnologies?.map((tech, index) => (
                             <TechnologyCard key={tech.id || index} tech={tech} />
                         ))}
                     </div>
 
-                    <div className="col-span-3 bg-white rounded-3xl p-7 border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] sticky top-6 min-h-[260px]">
+                    <div className="col-span-4 bg-white rounded-3xl p-7 border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] sticky top-6 min-h-[260px]">
                         <h3 className="text-xl font-bold text-[#0F172A]">Your Stack</h3>
                         <p className="text-xs text-[#94A3B8] mt-1 mb-8">No technologies selected yet.</p>
 

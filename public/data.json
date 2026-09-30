@@ -1,7 +1,7 @@
 [
     {
         "id": "React",
-        "icon": "https://cdn.simpleicons.org/react/61DAFB",
+        "icon": "https://icon.icepanel.io/Technology/svg/React.svg",
         "badge": "Popular",
         "badgeTextColor": "text-blue-600",
         "badgeBgColor": "#F0F9FF",
@@ -13,7 +13,7 @@
     },
     {
         "id": "Vue.js",
-        "icon": "/icon/Vue.js.png",
+        "icon": "https://icon.icepanel.io/Technology/svg/Vue.js.svg",
         "badge": "Versatile",
         "badgeTextColor": "#059669",
         "badgeBgColor": "#ECFDF5",
@@ -25,7 +25,7 @@
     },
     {
         "id": "Svelte",
-        "icon": "/icon/Svelte.png",
+        "icon": "https://icon.icepanel.io/Technology/svg/Svelte.svg",
         "badge": "Fast",
         "badgeTextColor": "#EA580C",
         "badgeBgColor": "#FFEDD5",
@@ -37,7 +37,7 @@
     },
     {
         "id": "Next.js",
-        "icon": "/icon/Next.js.svg.png",
+        "icon": "https://icon.icepanel.io/Technology/svg/Next.js.svg",
         "badge": "Fullstack",
         "badgeTextColor": "#EA580C",
         "badgeBgColor": "#FFEDD5",
@@ -49,7 +49,7 @@
     },
     {
         "id": "Node.js",
-        "icon": "/icon/Node.js.png",
+        "icon": "https://icon.icepanel.io/Technology/svg/Node.js.svg",
         "badge": "Standard",
         "badgeTextColor": "#059669",
         "badgeBgColor": "#D1FAE5",
@@ -61,7 +61,7 @@
     },
     {
         "id": "PostgreSQL",
-        "icon": "/icon/PostgreSQL.png",
+        "icon": "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
         "badge": "TopSQL",
         "badgeTextColor": "#2563EB",
         "badgeBgColor": "#DBEAFE",
@@ -73,7 +73,7 @@
     },
     {
         "id": "Redis",
-        "icon": "/icon/Redis.svg.png",
+        "icon": "https://icon.icepanel.io/Technology/svg/Redis.svg",
         "badge": "Cache",
         "badgeTextColor": "#DC2626",
         "badgeBgColor": "#FEE2E2",
@@ -85,7 +85,7 @@
     },
     {
         "id": "JavaScript",
-        "icon": "/icon/JavaScript.png",
+        "icon": "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
         "badge": "Ubiquitons",
         "badgeTextColor": "#D97706",
         "badgeBgColor": "#FEF3C7",
@@ -97,7 +97,7 @@
     },
     {
         "id": "TypeScript",
-        "icon": "/icon/TypeScript.svg.png",
+        "icon": "https://icon.icepanel.io/Technology/svg/TypeScript.svg",
         "badge": "Essential",
         "badgeTextColor": "#0284C7",
         "badgeBgColor": "#F0F9FF",
@@ -109,7 +109,7 @@
     },
     {
         "id": "Java",
-        "icon": "/icon/Java.png",
+        "icon": "https://icon.icepanel.io/Technology/svg/Java.svg",
         "badge": "Robust",
         "badgeTextColor": "#0284C7",
         "badgeBgColor": "#E0F2FE",
@@ -121,7 +121,7 @@
     },
     {
         "id": "Tailwind CSS",
-        "icon": "/icon/Tailwind-CSS.svg.png",
+        "icon": "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
         "badge": "Modern",
         "badgeTextColor": "#0891B2",
         "badgeBgColor": "#CFFAFE",
@@ -133,7 +133,7 @@
     },
     {
         "id": "Docker",
-        "icon": "./icon/Docker.png",
+        "icon": "https://icon.icepanel.io/Technology/svg/Docker.svg",
         "badge": "Containers",
         "badgeTextColor": "#0284C7",
         "badgeBgColor": "#E0F2FE",

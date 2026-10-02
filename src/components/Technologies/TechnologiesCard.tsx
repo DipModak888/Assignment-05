@@ -3,9 +3,11 @@ import type { ITechnologyTypes } from "../types/technologiesTypes";
 
 interface TechnologyCardProps {
     tech: ITechnologyTypes;
+    isAdded: boolean;
+    onAddToStack: (tech: ITechnologyTypes) => void;
 }
 
-const TechnologyCard: React.FC<TechnologyCardProps> = ({ tech }) => {
+const TechnologyCard: React.FC<TechnologyCardProps> = ({ tech, isAdded, onAddToStack }) => {
     const getBadgeStyle = (badge?: string) => {
         switch (badge?.toLowerCase()) {
             case "popular":
@@ -41,8 +43,7 @@ const TechnologyCard: React.FC<TechnologyCardProps> = ({ tech }) => {
                                 tech.badgeBgColor && tech.badgeTextColor
                                     ? { backgroundColor: tech.badgeBgColor, color: tech.badgeTextColor }
                                     : {}
-                            }
-                        >
+                            }>
                             {tech.badge}
                         </span>
                     )}
@@ -78,8 +79,14 @@ const TechnologyCard: React.FC<TechnologyCardProps> = ({ tech }) => {
                     )}
                 </div>
 
-                <button className="w-full bg-[#0F172A] hover:bg-black text-white font-medium py-2 px-3 rounded-xl transition-colors text-sm">
-                    Add to Stack
+                <button
+                    disabled={isAdded}
+                    onClick={() => onAddToStack(tech)}
+                    className={`w-full bg-[#0F172A] font-medium py-2 px-3 rounded-xl transition-colors text-sm ${isAdded
+                        ? "bg-slate-50 text-slate-400 text-[12px] cursor-not-allowed border  border-slate-200"
+                        : "bg-[#0F172A] text-white  hover:bg-black"
+                        }`}>
+                    {isAdded ? "✓ Added to Stack" : "Add to Stack"}
                 </button>
             </div>
         </div>

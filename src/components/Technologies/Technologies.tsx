@@ -32,7 +32,7 @@ const Technologies = ({ technologiesPromise }: ITechnologiesTypesProps) => {
                         ))}
                     </div>
 
-                    <div className="col-span-4 bg-white rounded-3xl p-7 border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] sticky top-6 min-h-[260px]">
+                    <div className="col-span-4 bg-white rounded-3xl p-7 border border-slate-100 shadow-[0_4px_20px_rgba(0,0,0,0.03)] sticky top-24 min-h-[260px]">
                         <h3 className="text-xl font-bold text-[#0F172A]">Your Stack</h3>
                         <p className="text-xs text-[#94A3B8] mt-1 mb-8">No technologies selected yet.</p>
 

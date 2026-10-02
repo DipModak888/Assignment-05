@@ -1,8 +1,10 @@
-import { Suspense} from "react";
+import { Suspense } from "react";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import type { ITechnologyTypes } from "./components/types/technologiesTypes";
 import Technologies from "./components/Technologies/Technologies";
+import Footer from "./components/Footer";
+
 
 
 const technologiesFetch = async (): Promise<ITechnologyTypes[]> => {
@@ -11,7 +13,7 @@ const technologiesFetch = async (): Promise<ITechnologyTypes[]> => {
   return data;
 };
 
- const technologiesPromise = technologiesFetch();
+const technologiesPromise = technologiesFetch();
 
 const App = () => {
 
@@ -26,6 +28,8 @@ const App = () => {
       }>
         <Technologies technologiesPromise={technologiesPromise} />
       </Suspense>
+
+      <Footer />
 
     </div>
   );

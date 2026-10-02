@@ -80,10 +80,9 @@ const TechnologyCard: React.FC<TechnologyCardProps> = ({ tech, isAdded, onAddToS
                 </div>
 
                 <button
-                    disabled={isAdded}
                     onClick={() => onAddToStack(tech)}
                     className={`w-full bg-[#0F172A] font-medium py-2 px-3 rounded-xl transition-colors text-sm ${isAdded
-                        ? "bg-slate-50 text-slate-400 text-[12px] cursor-not-allowed border  border-slate-200"
+                        ? "bg-slate-50 text-slate-400 text-[12px] border  border-slate-200"
                         : "bg-[#0F172A] text-white  hover:bg-black"
                         }`}>
                     {isAdded ? "✓ Added to Stack" : "Add to Stack"}

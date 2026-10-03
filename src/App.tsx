@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import type { ITechnologyTypes } from "./components/types/technologiesTypes";
 import Technologies from "./components/Technologies/Technologies";
+import Footer from "./components/Footer";
 
 
 
@@ -29,7 +30,7 @@ const App = () => {
         <Technologies technologiesPromise={technologiesPromise} />
       </Suspense>
 
-
+      <Footer />
 
     </div>
   );
